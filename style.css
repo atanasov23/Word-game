@@ -1,0 +1,549 @@
+@media only screen and (max-width: 600px) {
+
+
+    body {
+     
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+       background-color: #21BCCC;
+        
+    }
+
+    .main {
+        width: 190px;
+        height: 190px;
+        background-color: rgba(0, 0, 0, 0.3);
+        animation-name: spin;
+        animation-duration: 400ms;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+
+
+    }
+
+    .buttonsContainer {
+
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        border-radius: 100%;
+        bottom: 10%;
+        left: 19%;
+        background-color: rgb(255, 255, 255, 0.9);
+        border: 0.5px solid white;
+    }
+
+    .btn:active {
+        background-color: #16c995;
+        color: white;
+    }
+
+
+
+    #main {
+
+        display: none;
+
+    }
+
+    #title {
+
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 130px;
+        width: 270px;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        top: 30%;
+        margin-top: 130px;
+
+    }
+
+    #wordsBar {
+
+        position: absolute;
+        height: 80px;
+        width: auto;
+        left: 0%;
+        top: 20%;
+
+    }
+
+
+    .words {
+        resize: none;
+        position: relative;
+        height: 38px;
+        width: 38px;
+        margin: 10px;
+        top: 50%;
+        border: none;
+        border-radius: 15%;
+        text-align: center;
+        font-size: 29px;
+        color: black;
+    }
+
+    .wordContainer {
+        position: relative;
+        margin: 1px;
+        height: 55px;
+        width: 55px;
+        background-color: white;
+        border: none;
+        border-radius: 100%;
+        color: black;
+        font-size: 31px;
+        text-align: center;
+    }
+
+
+    .startBtn {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 43%;
+        height: 140px;
+        width: 130px;
+        border-radius: 100%;
+        font-size: 35px;
+        border: none;
+        background-color: white;
+        padding: 10px;
+
+    }
+
+    .startBtn img {
+
+        position: relative;
+        left: -34%;
+        top: -34%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .functionBtn {
+
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 100%;
+
+    }
+
+
+    .helpBtn {
+
+        position: absolute;
+        left: 80%;
+        top: 55%;
+        background-color: transparent;
+        background-image: url('image/grayLampMobile.jpg');
+
+    }
+
+
+    #shuffleBtn {
+
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        top: 90%;
+        left: 80%;
+        background-color: #1F618D;
+        background-image: url("image/shuffle-2.png");
+        border: none;
+    }
+
+
+    .coin {
+
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        left: 5%;
+        top: 3%;
+    }
+
+    .coin hr {
+
+        position: absolute;
+        left: 40%;
+        top: 35%;
+        width: 10px;
+    }
+
+    .coin span {
+        position: absolute;
+        font-size: 20px;
+        left: 53%;
+        top: 30%;
+        color: white;
+    }
+
+
+    .levelContainer {
+        position: absolute;
+        width: auto;
+        height: auto;
+        font-size: 40px;
+        color: white;
+        left: 31%;
+        top: 12%;
+
+    }
+
+    .settings {
+        position: absolute;
+        left: 83%;
+        top: 3%;
+        background-image: url('image/setting.png');
+        background-color: transparent;
+        font-size: 25px;
+        color: white;
+        width: 41px;
+        height: 42px;
+        border: none;
+        border-radius: 100%;
+
+    }
+
+    .deleteBtn {
+        position: absolute;
+        left: 10%;
+        top: 90%;
+        background-color: rgb(240, 97, 97);
+        font-size: 25px;
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: none;
+    }
+
+
+    .soundSetting {
+
+        position: absolute;
+        width: 50px;
+        height: 100px;
+        top: 10%;
+        left: 82%;
+        border-radius: 10px;
+        background-color: white;
+        display: none;
+
+    }
+
+    .music {
+
+        position: relative;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        left: 10%;
+        top: 3%;
+        border: none;
+        background-image: url('image/music_on.png');
+        background-color: transparent;
+
+    }
+
+    .sounds {
+
+        position: relative;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        left: 15%;
+        top: 5%;
+        border: none;
+        background-image: url('image/melody_on.png');
+        background-color: transparent;
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #21BCCC;
+    }
+
+    .soundSetting {
+        display: none;
+    }
+
+    .wordContainer {
+        position: relative;
+        left: 10%;
+        margin: 2%;
+        height: 80px;
+        width: 80px;
+        font-size: 40px;
+        border-radius: 15px;
+        border: 1px solid white;
+        background-color: #004c66;
+        font-size: 50px;
+    }
+
+    .buttonsContainer {
+
+        position: absolute;
+        top: 60%;
+        left: 29%;
+        right: 33%;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .wordsControlButtonsContainer {
+
+        position: absolute;
+        height: 100px;
+        width: 120px;
+        top: 60%;
+        left: 26%;
+    }
+
+    .functionBtn {
+
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border: none;
+        border-radius: 100%;
+
+    }
+
+    .settings {
+
+        position: absolute;
+        left: 88%;
+        top: 20%;
+        background-color: transparent;
+        background-image: url('image/setting22.png');
+
+    }
+
+    .helpBtn {
+
+        position: absolute;
+        left: 88%;
+        top: 35%;
+        background-color: transparent;
+        background-image: url('image/grayLamp.jpg');
+
+    }
+
+
+    #shuffleBtn {
+
+        position: absolute;
+        height: 42px;
+        width: 42px;
+        border-radius: 100%;
+        top: 30%;
+        left: 0%;
+        background-color: #1F618D;
+        background-image: url("image/shuffle-2.png");
+        border: none;
+    }
+
+    .coin {
+
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        left: 7%;
+        top: 10%;
+    }
+
+    .coin hr {
+
+        position: absolute;
+        left: 40%;
+        top: 35%;
+        width: 20px;
+    }
+
+    .coin span {
+        position: absolute;
+        font-size: 40px;
+        left: 60%;
+        top: 0%;
+        color: white;
+    }
+
+
+    .levelContainer {
+        position: absolute;
+        width: 350px;
+        height: auto;
+        font-size: 70px;
+        color: white;
+        left: 43%;
+        top: 10%;
+
+    }
+
+    #main {
+
+        display: none;
+
+    }
+
+    #title {
+
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+        height: 300px;
+        width: 600px;
+        font-size: 100px;
+        color: white;
+        text-align: center;
+        margin-top: 130px;
+    }
+
+    #wordsBar {
+
+        position: absolute;
+        height: 80px;
+        width: 820px;
+        left: 33%;
+        top: 33%;
+
+    }
+
+
+    .words {
+        
+        resize: none;
+        position: relative;
+        height: 70px;
+        width: 90px;
+        margin: 10px;
+        border: 1px solid white;
+        border-radius: 15%;
+        text-align: center;
+        font-size: 60px;
+        color: orange;
+
+    }
+
+    .startBtn {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        height: 140px;
+        width: 130px;
+        border-radius: 100%;
+        font-size: 35px;
+        border: none;
+        background-color: white;
+        padding: 10px;
+
+    }
+
+    .startBtn img {
+
+        position: relative;
+        left: -34%;
+        top: -34%;
+        height: 200px;
+        width: 200px;
+    }
+
+
+
+    .deleteBtn {
+        position: absolute;
+        right: 5%;
+        top: 30%;
+        background-color: rgb(245, 60, 60);
+        font-size: 25px;
+        color: white;
+        width: 43px;
+        height: 43px;
+        border-radius: 100%;
+        border: none;
+    }
+
+    .soundSetting {
+
+        position: absolute;
+        width: 50px;
+        height: 100px;
+        top: 20%;
+        left: 85%;
+        border-radius: 10px;
+        background-color: white;
+        display: none;
+
+    }
+
+    .music {
+
+        position: relative;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        left: 10%;
+        top: 3%;
+        border: none;
+        background-image: url('image/music_on.png');
+        background-color: transparent;
+
+    }
+
+    .sounds {
+
+        position: relative;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        left: 15%;
+        top: 5%;
+        border: none;
+        background-image: url('image/melody_on.png');
+        background-color: transparent;
+
+
+    }
+
+}
